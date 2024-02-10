@@ -13,17 +13,6 @@ if (dia == "Sábado") {
 }
 ```
 
-Verifique se um número digitado pelo usuário é positivo ou negativo. Mostre um alerta informando.
-```ruby
-let numero = prompt("Digite um número:");
-
-if (numero > 0) {
-    alert("O número digitado é positivo!");
-} else {
-    alert("O número digitado é negativo!");
-}
-```
-
 Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
 ```ruby
 let pontuacao = prompt("Digite um número:");
@@ -264,7 +253,7 @@ function maiorNumero(a, b) {
     return a > b ? a : b;
 }
 
-let maior = maiorNumero(10, 5)
+let maior = maiorNumero(10, 5);
 console.log(maior);
 ```
 
