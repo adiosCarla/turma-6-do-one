@@ -180,7 +180,7 @@ function verificarConsole() {
 
 Crie uma função que exiba um alerta com a mensagem: Eu amo JS, sempre que o botão Alerta for pressionado.
 ```ruby
-<button onclick="verificarAlerta()" class="button">Alert</button>
+<button onclick="verificarAlerta()" class="button">Alerta</button>
 
 function verificarAlerta() {
     alert("Eu amo JS");
